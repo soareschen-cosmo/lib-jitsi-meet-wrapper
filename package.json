@@ -1,0 +1,22 @@
+{
+  "name": "lib-jitsi-meet-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-iterator": "^2.0.3",
+    "jitsi-meet-logger": "github:jitsi/jitsi-meet-logger#6fff754a77a56ab52499f3559105a15886942a1e",
+    "jquery": "^2.1.4",
+    "react": "16.2.0",
+    "react-native-background-timer": "2.0.0",
+    "react-native-callstats": "^3.28.2",
+    "react-native-webrtc": "^1.58.3",
+    "url-polyfill": "github:github/url-polyfill#39734186de44612bc5a16eb25f5407adcc5b2e7c",
+    "xmldom": "^0.1.27"
+  }
+}

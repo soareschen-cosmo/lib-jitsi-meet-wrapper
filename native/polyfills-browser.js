@@ -377,5 +377,6 @@ function _visitNode(node, callback) {
       // console.trace('setTimeout called:', fn, time, rest)
       BackgroundTimer.setTimeout(fn, time, ...rest);
     }
+    global.DOMParser = DOMParser;
 
 })(global || window || this); // eslint-disable-line no-invalid-this
